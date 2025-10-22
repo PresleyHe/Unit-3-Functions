@@ -6,7 +6,6 @@ def calculate_score(points, bonus):
     total = points + bonus
     print("Score calculated")
     return total
-
 # =============================================================================
 # CODE ALONG 1: SOCIAL MEDIA ENGAGEMENT
 # =============================================================================
