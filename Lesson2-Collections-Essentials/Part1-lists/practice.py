@@ -14,4 +14,4 @@ def lists_stats(numbers):
     maximum = max(numbers)
     avg = sum(numbers) / len(numbers)
     return minimum, maximum, avg
-print(lists_stats([10,20,30,40]))
+print(lists_stats([10,20,30,40])) 
