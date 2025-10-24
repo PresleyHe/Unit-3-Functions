@@ -25,9 +25,15 @@ def validate_password(password):
     digit = False
     if len(password) >= 8:
         valid = True
+    else:
+        valid = False
     for char in password:
         if "0" <= char <= "9":
-            valid=True
+            digit=True
             break
+    if digit == True:
+        valid = True
+    else:
+        valid = False
     return valid
 print(validate_password("16"))
