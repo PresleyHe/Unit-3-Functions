@@ -21,6 +21,6 @@ def count_hashtags(post):
 post1 = "Great game today! #BergenTech #GoGamrz #pride"
 post2 = "Meeting tomorrow in room 205"
 post3 = "#Robotics team wins #StateChampionship! #STEM #BergenTech"
-print(count_hashtags(post1))
+print(count_hashtags(post1))  
 
 # .endswith() method
