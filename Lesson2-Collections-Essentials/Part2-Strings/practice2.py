@@ -10,3 +10,20 @@ def format_phone_number(phone):
        return "Invalid"
    
 print(format_phone_number("555-123-4567"))
+
+# problem 2
+def sanitize_filename(filename):
+    clean_Fileneame = filename.lower().replace(" ", "_")
+    special = "._-"
+    for char in clean_Fileneame:
+        if not char.isdigit():
+            if not char.isalpha():
+                if not char in special:
+                    clean_Fileneame = clean_Fileneame.replace(char, "")
+        if not clean_Fileneame[-4:] == ".text":
+            clean_Fileneame += ".txt"
+        if len(clean_Fileneame) > 50:
+            return "character maximum exceeded(50 character max)!"
+        return clean_Fileneame
+    
+print(sanitize_filename("notes"))
