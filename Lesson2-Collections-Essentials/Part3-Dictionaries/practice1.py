@@ -1,5 +1,6 @@
 def find_top_players(players, min_score):
     """ Return a list of usernames for players with score >= min_score """
+    
     # YOUR CODE HERE
     pass
 # Test it
