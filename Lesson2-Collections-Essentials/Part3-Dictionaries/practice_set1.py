@@ -1,10 +1,10 @@
 # Q1:
 
-# {"key_a": "value1", "key_b": 150, "key_d": 50}, "key_c":False
+# {"key_a": "value1", "key_b": 150, "key_d": 50}, False
 
 # Q2:
 
-# 120, "val_z":60.0
+# 120, 60.0
 
 # Q3.
 
