@@ -27,7 +27,6 @@ Messenger = send_message(sender="Alex",
 print(Messenger)
 
 
-
 def post_content(username, text, likes=0, retweets=0):
     return f"{username}: {text} |❤️  {likes} ♻️  {retweets}"
 content = post_content(username="@techguru", text="Python is amazing", likes=0, retweets=0)
