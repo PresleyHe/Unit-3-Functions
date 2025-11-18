@@ -5,8 +5,8 @@ def process_order(customer, *items, discount=0.0, **options):
     if options.get("express"):#If it contains express with a value of true,
         total += 5 #then it adds 5 to the total
     return round(total, 2) #rounds to 2 decimal places
-# 18.00
-# 15.00
+# 18.0
+# 15.0
 
 # Q2:
 def make_notification(user, *messages, urgent=False):
