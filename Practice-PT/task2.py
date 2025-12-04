@@ -38,7 +38,11 @@ def create_song(title, artist="Unknown Artist", duration=180):
     """
     # TODO: Write your code here (replace 'pass')
     # Hint: Create a dictionary with the three keys and return it
-    pass
+    return {
+        "title": title,
+        "artist": artist,
+        "duration": duration
+    }
 
 
 # =============================================================================
@@ -86,3 +90,5 @@ if __name__ == "__main__":
         print(f"   Got: {result}")
     
     print("=" * 50)
+    
+    
